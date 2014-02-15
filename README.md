@@ -4,6 +4,8 @@
 #### Students Level
 Not any pull request recived !
 
+**Note:** You arranged by code quality and time then do faster
+
 #### Please follow these steps for complete this misson
 1. Fork orginal repo: https://github.com/1Tuts/C13-W2-Homework-Layout1
 2. Clone from your fork (you dont allow to push to this repo)

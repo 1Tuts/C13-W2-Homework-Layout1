@@ -1,0 +1,44 @@
+.container{
+  width: 950px;
+  margin: 0 auto;
+  background-image: url('images/backguid.jpg');
+  background-repeat: no-repeat;
+  min-height: 500px;
+}
+
+.row{
+  *zoom:1;
+  border: 1px dashed green;
+}
+.row:before,
+.row:after{
+  content:" ";
+  display:table;
+}
+.row:after{
+  clear:both;
+}
+.box{
+  box-sizing: border-box;
+}
+
+.container{
+  outline: 1px dotted gray;
+}
+
+.container > *{
+  outline: 1px dotted green;
+}
+
+.container > * > *{
+  outline: 1px dotted red;
+}
+
+.container > * > * > *{
+  outline: 1px dotted blue;
+}
+
+.container > * > * > * > *{
+  outline: 1px dotted magenta;
+}
+

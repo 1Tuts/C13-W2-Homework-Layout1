@@ -1,10 +1,10 @@
 ## Web Technology Tutorials Level 2
 ### Layout 1 Homeworks of 13th Class
 
-### Students Level
+#### Students Level
 Not any pull request recived !
 
-### Please follow these steps for complete this misson
+#### Please follow these steps for complete this misson
 1. Fork orginal repo: https://github.com/1Tuts/C13-W2-Homework-Layout1
 2. Clone from your fork (you dont allow to push to this repo)
 3. Add a folder for yourself
@@ -17,6 +17,6 @@ Not any pull request recived !
 
 **Note:** you can check your homework (after fork) at `http://your_user_name.github.io/C13-W2-Homework-Layout1/your_folder_name`
 
-### Homework Description
+#### Homework Description
 Create layout of this image with our rulles and structures.
 ![Layout 1 Homeworks of 13th Class](http://1tuts.github.io/C13-W2-Homework-Layout1/YourName/images/backguid.jpg)

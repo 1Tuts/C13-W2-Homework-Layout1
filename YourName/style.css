@@ -6,40 +6,33 @@
   min-height: 871px;
 }
 
-.row{
+.row {
   *zoom:1;
   border: 1px dashed green;
   height: 
 }
+
 .row:before,
-.row:after{
+.row:after {
   content:" ";
   display:table;
 }
-.row:after{
+
+.row:after {
   clear:both;
-}
-.box{
+} 
+
+.box {
   box-sizing: border-box;
 }
 
-.container{
+.container {
   outline: 1px dotted gray;
 }
 
-.container > *{
+.container > * {
   outline: 1px dotted green;
+  height: 100px;
 }
 
-.container > * > *{
-  outline: 1px dotted red;
-}
-
-.container > * > * > *{
-  outline: 1px dotted blue;
-}
-
-.container > * > * > * > *{
-  outline: 1px dotted magenta;
-}
 

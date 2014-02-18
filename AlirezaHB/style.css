@@ -1,0 +1,78 @@
+.row{
+  *zoom:1;
+  border: 1px dashed green;
+}
+.row:before,
+.row:after{
+  content:" ";
+  display:table;
+}
+.row:after{
+  clear:both;
+}
+.box{
+  box-sizing: border-box;
+}
+
+.container{
+  outline: 1px dotted gray;
+}
+
+.container > *{
+  outline: 1px dotted green;
+}
+
+.container > * > *{
+  outline: 1px dotted red;
+}
+
+.container > * > * > *{
+  outline: 1px dotted blue;
+}
+
+.container > * > * > * > *{
+  outline: 1px dotted magenta;
+}
+
+
+.container{
+  width: 950px;
+  margin: 0 auto;
+  background-image: url('https://github-camo.global.ssl.fastly.net/a074ca5abf6d73f8036b596f7ea9b51ce2b556d9/687474703a2f2f31747574732e6769746875622e696f2f4331332d57322d486f6d65776f726b2d4c61796f7574312f596f75724e616d652f696d616765732f6261636b677569642e6a7067');
+  background-repeat: no-repeat;
+  min-height: 870px;
+}
+.row1{
+  height: 140px;
+}
+.box1 {
+  float: left;
+  width: 100%;
+  height: 140px;
+  
+}
+.row2{
+ height: 520px; 
+}
+.box3 {
+  float: left;
+  width: 50%;
+  height: 520px;
+}
+.box4 {
+  float: left;
+  width: 50%;
+  height: 520px;
+}
+.row3{
+ height: 210px; 
+}
+.box5 {
+  height: 110px;
+}
+.box6 {
+  height: 40px;
+}
+.box7{
+  height: 60px;
+}

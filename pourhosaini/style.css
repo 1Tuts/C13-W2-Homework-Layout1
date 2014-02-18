@@ -1,6 +1,11 @@
 body{
   background-color: #F4F4F4;
 }
+div{
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
 .container{
   width: 950px;
   margin: 0 auto;
@@ -16,7 +21,7 @@ body{
 .row:after{
   clear:both;
 }
-.box{
+.box{/*each column in a row*/
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;

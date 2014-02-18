@@ -8,11 +8,6 @@ body{
   background-repeat: no-repeat;
   min-height: 500px;
 }
-
-.top-menu{
-  *zoom:1;
-  border: 1px dashed green;
-}
 .row:before,
 .row:after{
   content:" ";
@@ -23,25 +18,71 @@ body{
 }
 .box{
   box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
 }
 
-.container{
-  outline: 1px dotted gray;
+.nav{
+  *zoom:1;
+  min-height: 135px;
 }
+.nav a{
+  text-decoration: none;
+  font-size: 18px;
+  color: #808080;
+  text-transform: capitalize;
+  font-family: tahoma;
+  font-size: 18px;
+}
+
+li{
+  list-style: none;
+  width: 33%;
+}
+
+.nav-left{
+  width: 40%;
+  float: left;
+}
+
+.nav-left li{
+  float: left;
+}
+.nav-right{
+  width: 40%;
+  float: left;
+}
+.nav-right li{
+  float: left;
+}
+.logo1{
+  width: 20%;
+  float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 .container > *{
-  outline: 1px dotted green;
+  border: 1px dashed green;
 }
 
 .container > * > *{
-  outline: 1px dotted red;
+  border: 1px dashed red;
 }
 
 .container > * > * > *{
-  outline: 1px dotted blue;
+  border: 1px dashed blue;
 }
 
 .container > * > * > * > *{
-  outline: 1px dotted magenta;
+  border: 1px dashed magenta;
 }
-

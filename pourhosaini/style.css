@@ -25,6 +25,8 @@ body{
 .nav{
   *zoom:1;
   min-height: 135px;
+  text-align: center;
+  vertical-align: middle;
 }
 .nav a{
   text-decoration: none;
@@ -34,10 +36,8 @@ body{
   font-family: tahoma;
   font-size: 18px;
 }
-
-li{
-  list-style: none;
-  width: 33%;
+.nav a:hover{
+  color: black;
 }
 
 .nav-left{
@@ -45,20 +45,29 @@ li{
   float: left;
 }
 
-.nav-left li{
-  float: left;
-}
-.nav-right{
-  width: 40%;
-  float: left;
-}
-.nav-right li{
-  float: left;
-}
 .logo1{
   width: 20%;
   float: left;
 }
+
+.nav-right{
+  width: 40%;
+  float: left;
+}
+
+li{
+  list-style: none;
+  width: 33%;
+}
+
+.nav-left li{
+  float: left;
+}
+
+.nav-right li{
+  float: left;
+}
+
 
 
 

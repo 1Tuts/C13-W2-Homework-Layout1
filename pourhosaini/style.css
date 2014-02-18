@@ -35,7 +35,6 @@ div{
 }
 .nav a{
   text-decoration: none;
-  font-size: 18px;
   color: #808080;
   text-transform: capitalize;
   font-family: tahoma;
@@ -48,21 +47,26 @@ div{
 .nav-left{
   width: 40%;
   float: left;
+  text-align: center;
+  vertical-align: middle;
 }
 
 .logo1{
   width: 20%;
   float: left;
+  vertical-align: middle;
 }
 
 .nav-right{
   width: 40%;
   float: left;
+  text-align: center;
+  vertical-align: middle;
 }
 
 li{
   list-style: none;
-  width: 33%;
+  width: 33.333%;/* yek sevom*/
 }
 
 .nav-left li{
@@ -73,7 +77,26 @@ li{
   float: left;
 }
 
+.body{
 
+}
+.body-left{
+  text-align: left;
+  vertical-align: top;
+  font-family: "tahoma";
+  font-size: 17px;
+  color: #646464;
+  line-height: 1.7;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-bottom: 70px;
+}
+.body-right{
+
+}
+.body-left img{
+  margin-bottom: 17px;
+}
 
 
 

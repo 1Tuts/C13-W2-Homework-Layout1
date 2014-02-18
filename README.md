@@ -9,7 +9,7 @@ Not any pull request recived !
 #### Please follow these steps for complete this misson
 1. Fork orginal repo: https://github.com/1Tuts/C13-W2-Homework-Layout1
 2. Clone from your fork (you dont allow to push to this repo)
-3. Add a folder for yourself
+3. Create a new folder for yourself
 4. Create your basic html and css files
 5. Commit you changes with good and proper messages (Dont use jafang in commit messages)
 6. Push to your fork

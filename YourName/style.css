@@ -1,14 +1,15 @@
+body{
+  background-color: #f4f4f4;
+}
 .container{
   width: 950px;
   margin: 0 auto;
-  background-image: url('images/backguid.jpg');
   background-repeat: no-repeat;
   min-height: 500px;
 }
 
 .row{
   *zoom:1;
-  border: 1px dashed green;
 }
 .row:before,
 .row:after{
@@ -21,24 +22,76 @@
 .box{
   box-sizing: border-box;
 }
-
-.container{
-  outline: 1px dotted gray;
+/*start header*/
+.box1{
+	width: 37%;
+	float: left;
 }
 
-.container > *{
-  outline: 1px dotted green;
+.box3{
+	float: right;
+	width: 37%;
 }
 
-.container > * > *{
-  outline: 1px dotted red;
+.box2{
+	width: 26%;
+	float: left;	
 }
 
-.container > * > * > *{
-  outline: 1px dotted blue;
+div.box2 img{
+	padding: 10px 0px 0 30px;
 }
 
-.container > * > * > * > *{
-  outline: 1px dotted magenta;
+
+menu.main{
+    width: 99%;
 }
 
+menu.main:after{
+	width: 0;
+	content:"";
+	height: 0;
+	clear: left;
+	display: table;
+}
+
+menu.main li{
+  list-style-type: none;
+  float: left;
+}
+
+menu.main li a{
+  text-transform: capitalize;
+  text-decoration: none;
+  color: :black;
+  padding: 45px 17px 0 0;
+  display: block;
+  color: #808080;
+  font-size: 17px;
+  font-family: 'PT Serif Caption', serif;
+  
+}
+
+/*end header*/
+/*start sec2*/
+.floor2{
+	margin-top: 90px;
+}
+div.box4{
+ float: left;
+ width: 49%;
+}
+
+div.box5{
+  width: 50%;
+  
+  float: left;
+}
+
+p.left{
+	margin-top: 35px;
+	font-size: 17px;
+	color:#999;
+	line-height: 2;
+	white-space: nowrap;
+}

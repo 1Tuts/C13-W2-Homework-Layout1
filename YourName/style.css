@@ -1,29 +1,28 @@
-.container{
+.container {
   width: 950px;
   margin: 0 auto;
   background-image: url('images/backguid.jpg');
   background-repeat: no-repeat;
-  min-height: 500px;
+  min-height: 871px;
 }
 
-.row{
+.row {
   *zoom:1;
-  border: 1px dashed green;
-}
-.row:before,
-.row:after{
-  content:" ";
-  display:table;
-}
-.row:after{
-  clear:both;
-}
-.box{
-  box-sizing: border-box;
+  border: 1px dashed green; 
 }
 
-.container{
-  outline: 1px dotted gray;
+.row:before,
+.row:after {
+  content:" ";
+  display: table;
+}
+
+.row:after {
+  clear: both;
+} 
+
+.box {
+  box-sizing: border-box;
 }
 
 .container > *{
@@ -42,3 +41,42 @@
   outline: 1px dotted magenta;
 }
 
+
+.row1 {
+  height: 140px;
+}
+
+.box1 {
+  width: 400px;
+  height: 140px;
+  float: left;
+}
+
+.box2 {
+  width: 148px;
+  height: 140px;
+  float: left;
+}
+
+.box3 {
+  width: 400px;
+  height: 140px;
+  float: left;
+}
+
+.box4 {
+  width: 475px;
+  height: 520px;
+  float: left;
+}
+
+.box5 {
+  width: 470px;
+  height: 520px;
+  float: left;
+}
+
+.box6 {
+  width: 949px;
+  height: 200px;
+}

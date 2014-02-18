@@ -95,3 +95,16 @@ p.left{
 	line-height: 2;
 	white-space: nowrap;
 }
+
+.boxwhatch{
+	background-color: #ffd202;
+	width: 70%;
+	min-height: 50px;
+}
+
+.boxwhatch a{
+	font-size: 18px;
+	color: black;
+	font-family: 'Mystery Quest', cursive;
+	text-decoration: none;
+}

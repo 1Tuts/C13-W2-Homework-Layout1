@@ -1,0 +1,192 @@
+body {
+background-color: #F4F4F4;  
+}
+
+.container{
+  width: 960px;
+  margin: 0 auto;
+  background-image: url('images/backguid.jpg');
+  background-repeat: no-repeat;
+  min-height: 500px;
+  
+}
+
+.row{
+  *zoom:1;
+  }
+.row:before,
+.row:after{
+  content:" ";
+  display:table;
+}
+.row:after{
+  clear:both;
+}
+div {
+ box-sizing: border-box;
+}
+
+.invar {
+  width: 550px;
+  float: left;
+  height: 500px;
+}
+
+.onvar {
+  width: 400px;
+  float: left;
+  height: 500px;
+  background-image: url("https://raw2.github.com/MAgolestani/C13-W2-Homework-Layout1/gh-pages/AminJoon/images/ask.jpg");
+  background-repeat: no-repeat;
+}
+
+menu.main {
+  list-style-type: none;
+  height: 140px;
+}
+
+menu.main li {
+  
+}
+
+menu.main li a {
+  float: left;
+  margin: 10px;
+  color: #999;
+  font-size: 18px;
+  text-transform: capitalize;
+  font-family: Lucida Sans Unicode;
+  font-weight: ;
+  text-decoration: none;
+  margin: 50px 20px;
+}
+
+menu.main li a:hover {
+  color: #000;
+}
+
+menu.main li:nth-child(4) {
+  height: 135px;
+  width: 135px;
+  background-image: url("http://lifeinmyshoes.org/wp-content/themes/lims/i/logo.png");
+  -webkit-background-size: 135px;
+  background-size: 135px ;
+  display: block;
+  float: left;
+}
+
+div.rowasl h1.welcome {
+  background-image: url("http://lifeinmyshoes.org/wp-content/themes/lims/i/titles/welcome_title_full.png");
+  width: 325px;
+  height: 55px;
+  margin: 0 0 35px;
+}
+
+.rowasl p {
+  font-size: 18px;
+  font-family: Lucida Sans Unicode;
+  clear: both;
+  line-height: 1.45;
+  color: #999;
+  margin: 0 0 30px;
+}
+
+.rowasl .invar a {
+  text-decoration: none;
+  color: #000;
+  width: 291px;
+  height: 22px;
+  padding:6px 50px 10px 20px;
+  font-size: 20px;
+  background-color: #FFD202;
+  display: block;
+  background-image: url("http://lifeinmyshoes.org/wp-content/themes/lims/i/video_play_icon.png");
+  background-repeat: no-repeat;
+  background-position: 300px 10px;
+}
+
+div.akhar {
+  width: 100%;
+  height: 100px;
+}
+
+div.akhar .aksa {
+  margin: 20px 250px;
+}
+
+
+
+menu.linka li a {
+  padding: 10px 15px;
+}
+
+menu.linka {
+   list-style-type: none;
+  margin: 10px 250px;
+}
+
+menu.linka li {
+  background-repeat: no-repeat;
+  float: left;
+  margin: 2px 10px;
+}
+
+menu.linka li:nth-child(1) {
+  background-image: url("http://lifeinmyshoes.org/wp-content/themes/lims/i/fb_icon.png");
+}
+
+menu.linka li:nth-child(2) {
+  background-image: url("http://lifeinmyshoes.org/wp-content/themes/lims/i/twitter_icon.png");
+}
+
+menu.linka li:nth-child(3) {
+  background-image: url("http://lifeinmyshoes.org/wp-content/themes/lims/i/rss_icon.png");
+}
+
+menu.linka li:nth-child(4) {
+  background-image: url("http://lifeinmyshoes.org/wp-content/themes/lims/i/contact_icon.png");
+}
+
+menu.linka li:nth-child(5) {
+  background-image: url("http://lifeinmyshoes.org/wp-content/themes/lims/i/body_and_soul_btn.png");
+  width: 89px;
+  height: 23px;
+}
+
+menu.linka li:nth-child(6) {
+  background-image: url("http://lifeinmyshoes.org/wp-content/themes/lims/i/lottery_btn.png");
+  width: 62px;
+  height: 40px;
+}
+
+div.akhar .sub {
+  width: 800px;
+  height: 42px;
+  margin: 70px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

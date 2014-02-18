@@ -2,7 +2,7 @@ body{
   background-color: #F4F4F4;
 }
 div{
-  box-sizing: border-box;
+  box-sizing: border-box;/*vaghti arz midahim majmue padding margin va ....*/
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
 }

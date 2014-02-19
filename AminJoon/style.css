@@ -13,8 +13,7 @@ background-color: #F4F4F4;
 
 .row{
   *zoom:1;
-  border: 1px dashed green;
-}
+  }
 .row:before,
 .row:after{
   content:" ";
@@ -25,34 +24,6 @@ background-color: #F4F4F4;
 }
 div {
  box-sizing: border-box;
-}
-
-.container{
-  outline: 1px dotted gray;
-}
-
-.container > *{
-  outline: 1px dotted green;
-}
-
-.container > * > *{
-  outline: 1px dotted red;
-}
-
-.container > * > * > *{
-  outline: 1px dotted blue;
-}
-
-.container > * > * > * > *{
-  outline: 1px dotted magenta;
-}
-
-.row1 {
-  
-}
-
-.row2 {
-
 }
 
 .invar {
@@ -191,7 +162,7 @@ menu.linka li:nth-child(6) {
 div.akhar .sub {
   width: 800px;
   height: 42px;
-  margin: 70px
+  margin: 70px;
 }
 
 

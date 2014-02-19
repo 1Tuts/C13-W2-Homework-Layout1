@@ -19,14 +19,17 @@ body{
   background-repeat: no-repeat;
   min-height: 500px;
 }
+
 .row:before,
 .row:after{
   content:" ";
   display:table;
 }
+
 .row:after{
   clear:both;
 }
+
 .box{/*each column in a row*/
   box-sizing: border-box;/*vaghti arz midahim  barabar mishavad ba majmue padding margin va ....*/
   -moz-box-sizing: border-box;
@@ -39,6 +42,7 @@ body{
   text-align: center;
   vertical-align: middle;
 }
+
 .nav a{
   text-decoration: none;
   color: #808080;
@@ -46,6 +50,7 @@ body{
   font-family: tahoma;
   font-size: 18px;
 }
+
 .nav a:hover{
   color: black;
 }
@@ -61,6 +66,15 @@ body{
   width: 20%;
   float: left;
   vertical-align: middle;
+}
+
+img.home{
+  width: 135px;
+  height: 135px;
+  background: url('images/logo.png') 0 0 no-repeat;
+}
+.logo1 > a:hover{
+  background: url('images/logo.png') 0 -135px no-repeat;
 }
 
 .nav-right{
@@ -86,6 +100,7 @@ li{
 .body{
 
 }
+
 .body-left{
   text-align: left;
   vertical-align: top;
@@ -93,13 +108,15 @@ li{
   font-size: 17px;
   color: #646464;
   line-height: 1.7;
-  padding-top: 10px;
+  padding-top: 40px;
   padding-left: 10px;
   padding-bottom: 70px;
 }
+
 .body-right{
 
 }
+
 .body-left img{
   margin-bottom: 17px;
 }

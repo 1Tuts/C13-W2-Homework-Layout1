@@ -1,7 +1,7 @@
 .container{
   width: 950px;
   margin: 0 auto;
-  background-image: url('images/backguid.jpg');
+  background-image: url("images/backguid.jpg");
   background-repeat: no-repeat;
   min-height: 900px;
 }
@@ -20,13 +20,21 @@
 }
 .box{
   box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
 }
 
 .container{
   outline: 1px dotted gray;
 }
 
-.header {
+.left {
+  float: left;
+}
+.right{
+  float:right;
+}
+.header ul{
   list-style-type: none;
 }
 .header li{
@@ -35,28 +43,37 @@
 
 .header li a{
   text-decoration: none;
-  text-transform: capitalize;
-  padding-right: 50px;
+  text-transform: capitalize;  
   color: black;
 }
 
 .hcol1{
-  width: 40%;
-  float: left;
-  margin-top: 60px;
-  margin-left: 15px;
+  width: 40%;  
+  margin-top: 50px;  
+}
+.hcol1 li{
+  padding-right: 30px;
+}
+.hcol3 li{
+  padding-right: 50px;
 }
 .hcol2{
   width: 20%;
-  height: 130px;
-  background: url("images/logo.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
-  float: left;
+  /*height: 130px;*/
+  /*background: url("images/logo.png") no-repeat;  */
+}
+.hcol2 a{
+  background: url("images/logo.png") no-repeat;
+  height: 135px;
+  width: 135px;
+  display: block;
+}
+.hcol2 a:hover{
+  background-position: left bottom;
 }
 .hcol3{
-  width: 36%;
-  float: left;
-  margin-top: 60px;
-  margin-left: 15px;
+  width: 40%;  
+  margin-top: 50px;  
 }
 .mcol1{
   float: left;
@@ -70,8 +87,8 @@
   padding-left: 90px;
 }
 
-#welcome{
-  background: url(images/welcome_title_full.png) no-repeat 0 0;
+.welcome{
+  background: url("images/welcome_title_full.png") no-repeat;
   width: 325px;
   height: 55px;
 }
@@ -105,6 +122,6 @@
 .links li{
   float: left;
 }
-.links .fb{
-  background: url(images/fb_icon.png) no-repeat left top;
+.links .fb a{
+  background: url("images/fb_icon.png") no-repeat ;
 }

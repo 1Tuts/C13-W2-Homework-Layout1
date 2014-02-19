@@ -1,9 +1,14 @@
+body {
+background-color: #F4F4F4;  
+}
+
 .container{
-  width: 950px;
+  width: 960px;
   margin: 0 auto;
   background-image: url('images/backguid.jpg');
   background-repeat: no-repeat;
   min-height: 500px;
+  
 }
 
 .row{
@@ -43,21 +48,117 @@ div {
 }
 
 .row1 {
-  height: 140px;
+  
 }
 
 .row2 {
 
 }
 
-.box1 {
-  width: 500px;
+.invar {
+  width: 590px;
   float: left;
-  height: 360px;
+  height: 500px;
 }
 
-.box2 {
-  width: 448px;
+.onvar {
+  width: 360px;
   float: left;
-  height: 360px;
+  height: 500px;
+  background-image: url("D:\Amin\My Works\C13-W2-Homework-Layout1\AminJoon\images\ask.jpg");
 }
+
+menu.main {
+  list-style-type: none;
+  height: 140px;
+}
+
+menu.main li {
+  
+}
+
+menu.main li a {
+  float: left;
+  margin: 10px;
+  color: #999;
+  font-size: 18px;
+  text-transform: capitalize;
+  font-family: Lucida Sans Unicode;
+  font-weight: ;
+  text-decoration: none;
+  margin: 50px 20px;
+}
+
+menu.main li a:hover {
+  color: #000;
+}
+
+menu.main li:nth-child(4) {
+  height: 135px;
+  width: 135px;
+  background-image: url("http://lifeinmyshoes.org/wp-content/themes/lims/i/logo.png");
+  -webkit-background-size: 135px;
+  background-size: 135px ;
+  display: block;
+  float: left;
+}
+
+div.rowasl h1.welcome {
+  background-image: url("http://lifeinmyshoes.org/wp-content/themes/lims/i/titles/welcome_title_full.png");
+  width: 325px;
+  height: 55px;
+  margin: 0 0 35px;
+}
+
+.rowasl p {
+  font-size: 18px;
+  font-family: Lucida Sans Unicode;
+  clear: both;
+  line-height: 1.45;
+  color: #999;
+  margin: 0 0 30px;
+}
+
+.rowasl .invar a {
+  text-decoration: none;
+  color: #000;
+  width: 291px;
+  height: 22px;
+  padding:6px 50px 10px 20px;
+  font-size: 20px;
+  background-color: #FFD202;
+  display: block;
+  background-image: url("http://lifeinmyshoes.org/wp-content/themes/lims/i/video_play_icon.png");
+  background-repeat: no-repeat;
+  background-position: 300px 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

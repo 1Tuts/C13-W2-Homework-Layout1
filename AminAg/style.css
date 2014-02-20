@@ -3,7 +3,7 @@ background-color: #F4F4F4;
 }
 
 .container{
-  width: 960px;
+  width: 980px;
   margin: 0 auto;
   min-height: 500px;
   
@@ -34,7 +34,7 @@ div {
   width: 400px;
   float: left;
   height: 500px;
-  background-image: url("https://raw2.github.com/MAgolestani/C13-W2-Homework-Layout1/gh-pages/AminJoon/images/ask.jpg");
+  background-image: url("image/LifeIn.jpg");
   background-repeat: no-repeat;
 }
 
@@ -49,7 +49,7 @@ menu.main li {
 
 menu.main li a {
   float: left;
-  margin: 10px;
+  margin: 60px;
   color: #999;
   font-size: 18px;
   text-transform: capitalize;

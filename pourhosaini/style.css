@@ -39,8 +39,10 @@ body{
 .nav{
   *zoom:1;
   min-height: 135px;
+  /*
   text-align: center;
   vertical-align: middle;
+  */
 }
 
 .nav a{
@@ -56,29 +58,34 @@ body{
 }
 
 .nav-left{
-  width: 40%;
+  width: 42%;
   float: left;
   text-align: center;
   vertical-align: middle;
 }
 
 .logo1{
-  width: 20%;
+  width: 16%;
   float: left;
+  padding: 0 8px;
   vertical-align: middle;
+  text-align: center;
 }
 
-img.home{
+.logo1cnt{
+
   width: 135px;
   height: 135px;
   background: url('images/logo.png') 0 0 no-repeat;
 }
-.logo1 > a:hover{
+.logo1cnt:hover{
+  width: 135px;
+  height: 135px;
   background: url('images/logo.png') 0 -135px no-repeat;
 }
 
 .nav-right{
-  width: 40%;
+  width: 42%;
   float: left;
   text-align: center;
   vertical-align: middle;

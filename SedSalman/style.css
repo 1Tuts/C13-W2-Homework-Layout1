@@ -121,3 +121,8 @@ menu li a:hover {
 .image:hover {
   background-position: left bottom;
 }
+
+.imageshoes {
+  width: 470px;
+  height: 500px;
+}

@@ -55,8 +55,6 @@ body {
   width: 148px;
   height: 140px;
   float: left;
-  background-image: url('logo.png');
-  background-repeat: no-repeat;
 }
 
 .box3 {
@@ -109,4 +107,17 @@ menu li a {
 
 menu li a:hover {
   color: black;
+}
+
+.image {
+  background-image: url('logo.png');
+  width: 135px;
+  height: 135px;
+  background-position: left top;
+  margin: -65px 0 0 -35px;
+  display: table;
+}
+
+.image:hover {
+  background-position: left bottom;
 }

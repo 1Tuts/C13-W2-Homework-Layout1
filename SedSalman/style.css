@@ -41,11 +41,6 @@
   outline: 1px dotted magenta;
 }
 
-
-.row1 {
-  height: 140px;
-}
-
 .box1 {
   width: 400px;
   height: 140px;
@@ -78,5 +73,15 @@
 
 .box6 {
   width: 949px;
-  height: 200px;
+  height: 100px;
+}
+
+.box7 {
+  width: 949px;
+  height: 50px;
+}
+
+.box8 {
+  width: 949px;
+  height: 50px;
 }

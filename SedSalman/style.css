@@ -83,12 +83,7 @@ body {
 
 .box7 {
   width: 949px;
-  height: 50px;
-}
-
-.box8 {
-  width: 949px;
-  height: 50px;
+  height: 100px;
 }
 
 menu {
@@ -165,3 +160,96 @@ div p {
 .award {
   margin: 25px 0 0 350px;
 }
+
+.fb {
+  background-image: url('fb_icon.png');
+  background-position: left top;
+  display: table;
+  width: 25px;
+  height: 26px;
+  margin: -50px 0 0 300px;
+}
+
+.fb:hover {
+  background-position: left bottom;
+}
+
+.tw {
+  background-image: url('twitter_icon.png');
+  background-position: left top;
+  display: table;
+  width: 25px;
+  height: 26px;
+  margin: -50px 0 0 340px;
+}
+
+.tw:hover {
+  background-position: left bottom;
+}
+
+.rss {
+  background-image: url('rss_icon.png');
+  background-position: left top;
+  display: table;
+  width: 25px;
+  height: 26px;
+  margin: -50px 0 0 380px;
+}
+
+.rss:hover {
+  background-position: left bottom;
+}
+
+.contact {
+  background-image: url('contact_icon.png');
+  background-position: left top;
+  display: table;
+  width: 25px;
+  height: 26px;
+  margin: -50px 0 0 420px;
+}
+
+.contact:hover {
+  background-position: left bottom;
+}
+
+.bodysoul {
+  background-image: url('body_and_soul_btn.png');
+  background-position: left top;
+  display: table;
+  width: 89px;
+  height: 23px;
+  margin: -50px 0 0 460px;
+}
+
+.bodysoul:hover {
+  background-position: left bottom;
+}
+
+.lottery {
+  background-image: url('lottery_btn.png');
+  background-position: left top;
+  display: table;
+  width: 62px;
+  height: 40px;
+  margin: -50px 0 0 560px;
+}
+
+.lottery:hover {
+  background-position: left bottom;
+}
+
+.p20 {
+  display: block;
+  text-align: center;
+  font-size: 15px;
+}
+
+.a20 {
+  color: #83827d;
+}
+
+.a20:hover {
+  color: #666;
+}
+

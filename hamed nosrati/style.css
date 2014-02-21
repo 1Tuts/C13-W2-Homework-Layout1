@@ -1,7 +1,9 @@
 body{
   background-color: #f4f4f4;
 }
+
 /*start main form*/
+
 .container{
   width: 950px;
   margin: 0 auto;
@@ -12,19 +14,27 @@ body{
 .row{
   *zoom:1;
 }
+
 .row:before,
 .row:after{
   content:" ";
   display:table;
+  width: 0;
+  height: 0;
 }
+
 .row:after{
   clear:both;
 }
+
 .box{
-  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
 }
+
 /*end main form*/
 /*start header*/
+
 .box1{
 	width: 37%;
 	float: left;
@@ -47,15 +57,9 @@ div.box2 img{
 
 menu.main{
     width: 99%;
+    background-color: red;
 }
 
-menu.main:after{
-	width: 0;
-	content:"";
-	height: 0;
-	clear: left;
-	display: table;
-}
 
 menu.main li{
   list-style-type: none;
@@ -70,15 +74,16 @@ menu.main li a{
   display: block;
   color: #808080;
   font-size: 17px;
-  font-family: 'PT Serif Caption', serif;
-  
+  font-family: 'PT Serif Caption', serif; 
 }
 
 /*end header*/
 /*start floor2*/
+
 .floor2{
 	margin-top: 90px;
 }
+
 div.box4{
  float: left;
  width: 49%;
@@ -86,7 +91,6 @@ div.box4{
 
 div.box5{
   width: 50%;
-  
   float: left;
 }
 
@@ -110,12 +114,16 @@ p.left{
 	font-family: 'Mystery Quest', cursive;
 	text-decoration: none;
 }
+
 /*end floor2*/
+
 .hr1{
 	width: 950px;
 	color: #999;
 }
+
 /*start floor3*/
+
 .footertop{
 	margin:20px 0 0 170px;
 }
@@ -127,8 +135,10 @@ p.left{
 .footerdown p{
 	color: #999;
 }
+
 .footerdown a{
 	color: black;
 	margin-left: 0 0 0 5px;
 }
+
 /*end floor3*/

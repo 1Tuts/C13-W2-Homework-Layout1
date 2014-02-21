@@ -1,3 +1,7 @@
+body {
+  background-color: #f4f4f4;
+}
+
 .container {
   width: 950px;
   margin: 0 auto;
@@ -84,4 +88,23 @@
 .box8 {
   width: 949px;
   height: 50px;
+}
+
+menu {
+  list-style-type: none;
+  margin: 65px 0 0 0;
+}
+
+menu li a {
+  float: left;
+  display: table;
+  text-decoration: none;
+  color: #808080;
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+menu li a:hover {
+  color: black;
 }

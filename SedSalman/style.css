@@ -78,6 +78,7 @@ body {
 .box6 {
   width: 949px;
   height: 100px;
+  border-top: 1px solid #dedede;
 }
 
 .box7 {
@@ -101,8 +102,7 @@ menu li a {
   text-decoration: none;
   color: #808080;
   font-size: 18px;
-  font-weight: bold;
-  margin-right: 20px;
+  margin-right: 30px;
 }
 
 menu li a:hover {
@@ -146,15 +146,22 @@ div p {
   font-family: "HouschkaRounded-Medium", sans-serif;
   font-size: 22px;
   width: 350px;
+  height: 40px;
   color: #808080;
   background-color: #ffd202;
   background-image: url('video_play_icon.png');
   background-repeat: no-repeat;
   background-position: right center;
   margin: 80px 0 0 5px;
+  text-align: center;
   text-decoration: none;
+  padding: 20px 50px 6px 0;
 }
 
 .watch:hover {
   color: black;
+}
+
+.award {
+  margin: 25px 0 0 350px;
 }

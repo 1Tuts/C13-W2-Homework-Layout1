@@ -113,6 +113,7 @@ li{
 
 .body-left{
   width: 50%;
+  margin-right: 390px;
   text-align: left;
   vertical-align: top;
   font-family: "tahoma";
@@ -126,14 +127,43 @@ li{
   margin-bottom: 17px;
 }
 
-.body-right{
-  width: 50%;
-  /* background-image: url('images/bdyrght.png'); */
+.orange{
+  display:block;
+  width: 310px;
+  font-weight: bold;
+  font-size: 30;
+  background-color: #ffd202;
 }
 
+.body-right{
+  width: 50%;
+  margin-right: 390px;
+  background-image: url('images/bdyrght.png'); 
+}
 
+.footer-logos,
+.footer-links{
+  border-top-style: solid;
+  border-top-color: #e4e4e4;
+  border-top-width: 2px;
+  text-decoration: none;
+  color: #646464;
+  font-family: tahoma;
+  font-size: 12px;
+  text-align: center;
+  padding-top: 10px;
+}
+.footer-links a{
+  color: #83827d;
+  text-decoration: none;
+}
 
-
+.footer-links a:hover{
+  color: #646464;
+}
+.unli{
+  text-decoration: underline;
+}
 
 
 

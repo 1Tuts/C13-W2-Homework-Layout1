@@ -3,7 +3,8 @@
   padding: 0;
 }
 
-div{
+div,
+menu{
   margin: 0;
   padding: 0;
 }
@@ -111,22 +112,26 @@ li{
 }
 
 .body-left{
+  width: 50%;
   text-align: left;
   vertical-align: top;
   font-family: "tahoma";
   font-size: 17px;
   color: #646464;
-  line-height: 1.7;
-  padding: 40px 1px 70px 40px; 
-}
-
-.body-right{
-
+  line-height: 2.4;
+  padding: 40px 1px 10px 10px; 
 }
 
 .body-left img{
   margin-bottom: 17px;
 }
+
+.body-right{
+  width: 50%;
+  /* background-image: url('images/bdyrght.png'); */
+}
+
+
 
 
 

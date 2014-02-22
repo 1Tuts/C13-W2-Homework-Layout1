@@ -52,16 +52,16 @@ body{
 }
 
 .box2{
-	width: 26%;
+	width: 25%;
 }
 
 div.box2 img{
-	padding: 10px 0px 0 30px;
+	padding: 10px 0px 0 20px;
 }
 
 
 menu.main{
-    width: 99%;
+    padding-left:5px; 
 }
 
 
@@ -84,16 +84,14 @@ menu.main li a{
 /*end header*/
 /*start floor2*/
 
-.floor2{
-	margin-top: 90px;
-}
-
 div.box4{
  width: 49%;
+ padding-top:90px; 
 }
 
 div.box5{
   width: 50%;
+  padding-top:90px;
 }
 
 p.left{

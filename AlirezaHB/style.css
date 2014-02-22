@@ -17,7 +17,7 @@ body {
   box-sizing: border-box;
 }
 
-.container{
+/*.container{
   outline: 1px dotted gray;
 }
 
@@ -35,14 +35,15 @@ body {
 
 .container > * > * > * > *{
   outline: 1px dotted magenta;
-}
+}*/
 
 
 .container{
   width: 950px;
   margin: 0 auto;
   text-align: center;/* aya doroste in kar?*/
-  background-image:url('images/backguid.jpg');/* cherea tak ' chere 2 tayi nemizari "( mesle img???? */
+  /*background-image:url('images/backguid.jpg');*/
+  /* cherea tak ' chere 2 tayi nemizari "( mesle img???? */
   background-repeat: no-repeat;
   min-height: 870px;
 }
@@ -54,6 +55,33 @@ body {
   float: left;
   width: 40%;
   height: 140px;
+}
+menu.main {
+  margin-top: 65px;
+  list-style-type: none;
+  
+}
+
+menu.main:after{
+  display: table;
+  content:" ";
+  clear:both;
+}
+menu.main li {
+  margin-left: 50px;
+  float: left;
+}
+menu.main li:first-child{
+  margin-left: 0px;
+  float: left;
+  text-align:left;  
+}
+/*chera hom inghadr fasele dare az chap!???*/
+
+menu.main li a{
+font-family: "HouschkaRounded-Medium", sans-serif;
+font-size: 28px;
+
 }
 .row1 .boxc{
   float: left;
@@ -90,7 +118,7 @@ padding-left: 20px;
   color:#999;
 }
 
-.row2 .boxl img {
+.row2 .boxl img.i1 {
   width: 235px;
   height: 40px;
   position: absolute;
@@ -98,6 +126,19 @@ padding-left: 20px;
   left: 14px;
   top: 60px;
 }
+.row2 .boxl a.button{
+  font-family: "HouschkaRounded-Medium", sans-serif;
+  text-decoration: none;
+  border: none;
+  background: #ffd202;
+  padding: 10px 20px 6px;
+  font-size: 22px;
+  color: #414141;
+}
+a.button:hover{
+  color: #000;
+}
+/*chera kar nemikone???????*/
 .row2 .boxr {
   float: left;
   width: 50%;
@@ -146,3 +187,6 @@ top: 0px;
 .row3 .boxd{
   height: 60px;
 }
+menu li:hover {
+  
+};

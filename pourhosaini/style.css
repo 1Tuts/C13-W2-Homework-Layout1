@@ -113,6 +113,7 @@ li{
 
 .body-left{
   width: 50%;
+  float: left;
   margin-right: 390px;
   text-align: left;
   vertical-align: top;
@@ -121,6 +122,7 @@ li{
   color: #646464;
   line-height: 2.4;
   padding: 40px 1px 10px 10px; 
+
 }
 
 .body-left img{
@@ -137,6 +139,7 @@ li{
 
 .body-right{
   width: 50%;
+  float: left;
   margin-right: 390px;
   background-image: url('images/bdyrght.png'); 
 }

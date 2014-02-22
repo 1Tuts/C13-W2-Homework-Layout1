@@ -1,3 +1,6 @@
+body {
+  background-color: #f4f4f4;
+}
 .row{
   *zoom:1;
   border: 1px dashed green;
@@ -38,41 +41,108 @@
 .container{
   width: 950px;
   margin: 0 auto;
-  background-image: url('https://github-camo.global.ssl.fastly.net/a074ca5abf6d73f8036b596f7ea9b51ce2b556d9/687474703a2f2f31747574732e6769746875622e696f2f4331332d57322d486f6d65776f726b2d4c61796f7574312f596f75724e616d652f696d616765732f6261636b677569642e6a7067');
+  text-align: center;/* aya doroste in kar?*/
+  background-image:url('images/backguid.jpg');/* cherea tak ' chere 2 tayi nemizari "( mesle img???? */
   background-repeat: no-repeat;
   min-height: 870px;
 }
 .row1{
   height: 140px;
+
 }
-.box1 {
+.row1 .boxl{
   float: left;
-  width: 100%;
+  width: 40%;
   height: 140px;
+}
+.row1 .boxc{
+  float: left;
+  width: 20%;
+  height: 140px;
+  background-image:url('images/logo.png');/* cheara kar nemikone???*/
+  background-position: top;
+  background-repeat: no-repeat;
   
+  
+  z-index: +1;*/
+}
+.row1 .boxr{
+  float: left;
+  width: 40%;
+  height: 140px;
 }
 .row2{
  height: 520px; 
 }
-.box3 {
+.row2 .boxl {
+  position: relative;
   float: left;
   width: 50%;
   height: 520px;
+padding-top: 120px;
+padding-left: 20px;
+
 }
-.box4 {
+.row2 .boxl p{
+  text-align: left;
+  line-height: 1;
+  font-size: 18px;
+  color:#999;
+}
+
+.row2 .boxl img {
+  width: 235px;
+  height: 40px;
+  position: absolute;
+
+  left: 14px;
+  top: 60px;
+}
+.row2 .boxr {
   float: left;
   width: 50%;
   height: 520px;
+  position: relative;
+  /*background-image:url('images/cast.png'); */
+}
+.row2 .boxr .back {
+  position: relative;
+  margin-left:70px ;
+  /*agha chE KONIM BIYAD VASAT ERTEFAE*/
+  margin-top: 50px;
+}
+.row2 .boxr .top{
+  /*border: 10px solid black;*/
+position: absolute;
+/*float: left;*/
+left: 105px;
+z-index:1;
+top: 0px;
+}
+.row2 .boxr .back .top:before{
+  content:" ";
+  display:table;
 }
 .row3{
  height: 210px; 
+ position: relative;
 }
-.box5 {
+.row3 .boxt {
   height: 110px;
+  /*position: absolute;*/
+  /*top: 36px; 
+  left: 340px;*/
 }
-.box6 {
+.row3 .boxt img{
+  position: absolute;
+  left: 340px;
+  top: 35px;
+  /*top: 36px; 
+  left: 340px;*/
+}
+.row3 .boxc {
   height: 40px;
 }
-.box7{
+.row3 .boxd{
   height: 60px;
 }

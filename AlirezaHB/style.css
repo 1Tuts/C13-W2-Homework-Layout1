@@ -1,42 +1,18 @@
 body {
   background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
 }
 .row{
   *zoom:1;
   border: 1px dashed green;
 }
-.row:before,
-.row:after{
+.row:before,.row:after {
   content:" ";
   display:table;
 }
-.row:after{
-  clear:both;
-}
-.box{
-  box-sizing: border-box;
-}
-
-/*.container{
-  outline: 1px dotted gray;
-}
-
-.container > *{
-  outline: 1px dotted green;
-}
-
-.container > * > *{
-  outline: 1px dotted red;
-}
-
-.container > * > * > *{
-  outline: 1px dotted blue;
-}
-
-.container > * > * > * > *{
-  outline: 1px dotted magenta;
-}*/
-
+.row:after {clear:both;}
+.box{box-sizing: border-box;}
 
 .container{
   width: 950px;
@@ -47,28 +23,25 @@ body {
   background-repeat: no-repeat;
   min-height: 870px;
 }
-.row1{
-  height: 140px;
-
-}
+.row1{height: 140px;}
 .row1 .boxl{
   float: left;
   width: 40%;
   height: 140px;
 }
-menu.main {
+menu.main{
+  padding: 10px;
+  margin: 0;
   margin-top: 65px;
   list-style-type: none;
-  
 }
-
-menu.main:after{
+/*menu.main:after{
   display: table;
   content:" ";
   clear:both;
-}
+}*/
 menu.main li {
-  margin-left: 50px;
+  margin-left: 20px;
   float: left;
 }
 menu.main li:first-child{
@@ -77,21 +50,20 @@ menu.main li:first-child{
   text-align:left;  
 }
 /*chera hom inghadr fasele dare az chap!???*/
-
 menu.main li a{
-font-family: "HouschkaRounded-Medium", sans-serif;
-font-size: 28px;
-
+  text-decoration: none;
+  /*display: block; */
+  font-family: "HouschkaRounded-Medium", sans-serif;
+  color:green;
+  font-size: 20px;
 }
 .row1 .boxc{
   float: left;
   width: 20%;
-  height: 140px;
+  height: 135px;
   background-image:url('images/logo.png');/* cheara kar nemikone???*/
   background-position: top;
   background-repeat: no-repeat;
-  
-  
   z-index: +1;*/
 }
 .row1 .boxr{
@@ -99,17 +71,13 @@ font-size: 28px;
   width: 40%;
   height: 140px;
 }
-.row2{
- height: 520px; 
-}
+.row2{height: 520px;}
 .row2 .boxl {
   position: relative;
   float: left;
   width: 50%;
   height: 520px;
-padding-top: 120px;
-padding-left: 20px;
-
+  padding: 120px 10px 0 ;
 }
 .row2 .boxl p{
   text-align: left;
@@ -122,7 +90,6 @@ padding-left: 20px;
   width: 235px;
   height: 40px;
   position: absolute;
-
   left: 14px;
   top: 60px;
 }
@@ -135,10 +102,9 @@ padding-left: 20px;
   font-size: 22px;
   color: #414141;
 }
-a.button:hover{
-  color: #000;
-}
+a.button:hover{color: #000;}
 /*chera kar nemikone???????*/
+
 .row2 .boxr {
   float: left;
   width: 50%;
@@ -152,13 +118,13 @@ a.button:hover{
   /*agha chE KONIM BIYAD VASAT ERTEFAE*/
   margin-top: 50px;
 }
-.row2 .boxr .top{
+.row2 .boxr .top {
   /*border: 10px solid black;*/
-position: absolute;
-/*float: left;*/
-left: 105px;
-z-index:1;
-top: 0px;
+  position: absolute;
+  /*float: left;*/
+  left: 105px;
+  z-index:1;
+  top: 0px;
 }
 .row2 .boxr .back .top:before{
   content:" ";
@@ -178,15 +144,29 @@ top: 0px;
   position: absolute;
   left: 340px;
   top: 35px;
-  /*top: 36px; 
-  left: 340px;*/
 }
-.row3 .boxc {
-  height: 40px;
-}
-.row3 .boxd{
-  height: 60px;
-}
-menu li:hover {
-  
-};
+.row3 .boxc {height: 40px;}
+.row3 .boxd{height: 60px;}
+
+/****************************************first of page layout design****************************************/
+
+  .container{
+    outline: 1px dotted gray;
+  }
+
+  .container > *{
+    outline: 1px dotted green;
+  }
+
+  .container > * > *{
+    outline: 1px dotted red;
+  }
+
+  .container > * > * > *{
+    outline: 1px dotted blue;
+  }
+
+  .container > * > * > * > *{
+    outline: 1px dotted magenta;
+  }
+/****************************************end of page layout design****************************************/

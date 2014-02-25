@@ -28,6 +28,7 @@ div {
   width: 550px;
   float: left;
   height: 500px;
+  padding: 90px 0 0 0;
 }
 
 .onvar {
@@ -49,7 +50,7 @@ menu.main li {
 
 menu.main li a {
   float: left;
-  margin: 60px;
+  margin: 10px;
   color: #999;
   font-size: 18px;
   text-transform: capitalize;

@@ -5,7 +5,7 @@ body {
 }
 .row{
   *zoom:1;
-  border: 1px dashed green;
+
 }
 .row:before,.row:after {
   content:" ";
@@ -21,9 +21,9 @@ body {
   /*background-image:url('images/backguid.jpg');*/
   /* cherea tak ' chere 2 tayi nemizari "( mesle img???? */
   background-repeat: no-repeat;
-  min-height: 870px;
+  /*min-height: 800px;*/
 }
-.row1{height: 140px;}
+/*.row1{height: 140px;}*/
 .row1 .boxl{
   float: left;
   width: 40%;
@@ -53,9 +53,10 @@ menu.main li:first-child{
 menu.main li a{
   text-decoration: none;
   /*display: block; */
-  font-family: "HouschkaRounded-Medium", sans-serif;
-  color:green;
-  font-size: 20px;
+  font-family: sans-serif;
+  color: #808080;
+  font-size: 17px;
+  display: block;
 }
 .row1 .boxc{
   float: left;
@@ -69,14 +70,14 @@ menu.main li a{
 .row1 .boxr{
   float: left;
   width: 40%;
-  height: 140px;
+  /*height: 140px;*/
 }
 .row2{height: 520px;}
 .row2 .boxl {
   position: relative;
   float: left;
   width: 50%;
-  height: 520px;
+  /*height: 520px;*/
   padding: 120px 10px 0 ;
 }
 .row2 .boxl p{
@@ -88,7 +89,7 @@ menu.main li a{
 
 .row2 .boxl img.i1 {
   width: 235px;
-  height: 40px;
+  /*height: 40px;*/
   position: absolute;
   left: 14px;
   top: 60px;
@@ -101,27 +102,31 @@ menu.main li a{
   padding: 10px 20px 6px;
   font-size: 22px;
   color: #414141;
+  display: block;
+  width: 350px;
+  margin: 0 auto;
 }
 a.button:hover{color: #000;}
 /*chera kar nemikone???????*/
 
 .row2 .boxr {
+  
   float: left;
   width: 50%;
-  height: 520px;
+  height: 500px;
   position: relative;
   /*background-image:url('images/cast.png'); */
+  background-image:url('images/man.jpg');
+  background-repeat: no-repeat;
 }
-.row2 .boxr .back {
+/*.row2 .boxr .back {
   position: relative;
   margin-left:70px ;
-  /*agha chE KONIM BIYAD VASAT ERTEFAE*/
+  *agha chE KONIM BIYAD VASAT ERTEFAE*
   margin-top: 50px;
 }
 .row2 .boxr .top {
-  /*border: 10px solid black;*/
   position: absolute;
-  /*float: left;*/
   left: 105px;
   z-index:1;
   top: 0px;
@@ -130,23 +135,26 @@ a.button:hover{color: #000;}
   content:" ";
   display:table;
 }
+*/
 .row3{
- height: 210px; 
- position: relative;
+/* min-height: 210px; */
+ /*position: relative;*/
 }
 .row3 .boxt {
-  height: 110px;
+  /*height: 110px;*/
   /*position: absolute;*/
   /*top: 36px; 
   left: 340px;*/
 }
 .row3 .boxt img{
-  position: absolute;
+  /*position: absolute;
   left: 340px;
-  top: 35px;
+  top: 35px;*/
 }
-.row3 .boxc {height: 40px;}
-.row3 .boxd{height: 60px;}
+.row3 .boxc {height: 60px;}
+.row3 .boxd{
+  /*height: 60px;*/
+}
 
 /****************************************first of page layout design****************************************/
 

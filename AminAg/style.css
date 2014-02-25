@@ -45,11 +45,11 @@ menu.main {
 }
 
 menu.main li {
-  
+  float: left;
+  padding: 50px 0 0 0;
 }
 
 menu.main li a {
-  float: left;
   margin: 10px;
   color: #999;
   font-size: 18px;
@@ -71,7 +71,7 @@ menu.main li:nth-child(4) {
   -webkit-background-size: 135px;
   background-size: 135px ;
   display: block;
-  float: left;
+  padding: 0;
 }
 
 div.rowasl h1.welcome {
@@ -101,17 +101,18 @@ div.rowasl h1.welcome {
   display: block;
   background-image: url("http://lifeinmyshoes.org/wp-content/themes/lims/i/video_play_icon.png");
   background-repeat: no-repeat;
-  background-position: 300px 10px;
+  background-position: center right;
 }
 
 div.akhar {
   border-top: 1px dashed black;
+  padding: 20px 0 0 0;
 }
 
 div.akhar .aksa {
   width: 500px;
   margin: 0 auto;
-  padding: 0;
+  padding: 0 0 10px 0;
 }
 
 menu.linka li a {

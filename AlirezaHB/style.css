@@ -70,14 +70,12 @@ menu.main li a{
 .row1 .boxr{
   float: left;
   width: 40%;
-  /*height: 140px;*/
 }
 .row2{height: 520px;}
 .row2 .boxl {
   position: relative;
   float: left;
   width: 50%;
-  /*height: 520px;*/
   padding: 120px 10px 0 ;
 }
 .row2 .boxl p{
@@ -89,7 +87,6 @@ menu.main li a{
 
 .row2 .boxl img.i1 {
   width: 235px;
-  /*height: 40px;*/
   position: absolute;
   left: 14px;
   top: 60px;
@@ -107,58 +104,35 @@ menu.main li a{
   margin: 0 auto;
 }
 a.button:hover{color: #000;}
-/*chera kar nemikone???????*/
-
 .row2 .boxr {
   
   float: left;
   width: 50%;
   height: 500px;
   position: relative;
-  /*background-image:url('images/cast.png'); */
   background-image:url('images/man.jpg');
   background-repeat: no-repeat;
 }
-/*.row2 .boxr .back {
-  position: relative;
-  margin-left:70px ;
-  *agha chE KONIM BIYAD VASAT ERTEFAE*
-  margin-top: 50px;
-}
-.row2 .boxr .top {
-  position: absolute;
-  left: 105px;
-  z-index:1;
-  top: 0px;
-}
-.row2 .boxr .back .top:before{
-  content:" ";
-  display:table;
-}
-*/
 .row3{
-/* min-height: 210px; */
- /*position: relative;*/
 }
 .row3 .boxt {
-  /*height: 110px;*/
-  /*position: absolute;*/
-  /*top: 36px; 
-  left: 340px;*/
 }
 .row3 .boxt img{
-  /*position: absolute;
-  left: 340px;
-  top: 35px;*/
 }
 .row3 .boxc {height: 60px;}
-.row3 .boxd{
-  /*height: 60px;*/
-}
+.row3 .boxd{}
+.row3 .boxt ul li { display: inline-block; margin: 0 1px; }
+.row3 .boxt a { display: block; height: 26px; width: 25px; }
+
+.fb a           { background: url(images/fb_icon.png) no-repeat; }
+.tw a           { background: url(images/twitter_icon.png) no-repeat; }
+.rss a          { background: url(images/rss_icon.png) no-repeat; }
+.contact a      { background: url(images/contact_icon.png) no-repeat; }
+.bodyandsoul a  { background: url(images/body_and_soul_btn.png) no-repeat; width: 90px;/*chera bozorg nemikone!!!*/ }
+.lottery a      { background: url(images/lottery_btn.png) no-repeat; width: 200px;/*chera bozorg nemikone!!!*/ }
 
 /****************************************first of page layout design****************************************/
-
-  .container{
+ /* .container{
     outline: 1px dotted gray;
   }
 
@@ -177,4 +151,5 @@ a.button:hover{color: #000;}
   .container > * > * > * > *{
     outline: 1px dotted magenta;
   }
+*/
 /****************************************end of page layout design****************************************/

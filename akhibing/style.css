@@ -23,11 +23,6 @@
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
 }
-
-.container{
-  outline: 1px dotted gray;
-}
-
 .left {
   float: left;
 }
@@ -36,6 +31,9 @@
 }
 .header ul{
   list-style-type: none;
+  padding:0;
+  margin:0;
+  margin-left: 20px;
 }
 .header li{
   float: left;
@@ -54,6 +52,7 @@
 .hcol1 li{
   padding-right: 30px;
 }
+
 .hcol3 li{
   padding-right: 50px;
 }
@@ -86,8 +85,8 @@
 }
 .mcol2{
   float:left;
-  width: 50%;
-  padding-left: 90px;
+  width: 50%;  
+  padding-left: 90px;    
 }
 
 .welcome{
@@ -101,26 +100,29 @@
   color: grey;
 }
 .mcol1 a{
-  background: url("images/video_play_icon.png") no-repeat scroll right center #FFD202 ;
+  display: block;
+  background: url("images/video_play_icon.png") no-repeat right center #FFD202 ;
   font-family: tahoma;
   font-size: 22px;
   padding-right: 50px;
-  padding-top: 10px;
-  padding-bottom: 10px;  
+  padding-top: 10px;  
   text-decoration: none;
+  width:320px;
   color: black;
 }
 .award{
   margin-top: 80px;
   border-top: 1px solid grey;
 }
-.awcol{
-    text-align: center;
-    margin-left:15px;  
+.awcol img{
+  display: block;
+  margin: 0 auto;
+}
+.awcol{    
     padding-top: 40px;     
 }
 .links{
-  list-style-type: none;
+  list-style-type: none;  
 }
 .links li{
   float: left;
@@ -177,16 +179,9 @@
 .links .lottery a:hover{
   background-position: left bottom;  
 }
-.linkCol1{
-  width: 35%;
-  min-height: 1px;
-}
 .linkCol2{
-  width:40%;
-}
-.linkCol3{
-  width: 25%;
-  min-height: 1px;
+  margin:0 auto;
+  width:351px;
 }
 .copyright .up{
   margin-left: 20%;
@@ -201,23 +196,9 @@
 }
 .footerMenu a {
   color: grey;
+  padding-bottom:10px;
 }
 .footerMenu{
-  width: 60%;
-}
-.rightFM{
-  width:30%;
-  min-height: 1px;
-}
-.leftFM{
-  width: 10%;
-  min-height: 1px;
-}
-.mcol2 .art1{
-  position: absolute;
-}
-.mcol2 .cast{
-  position: absolute; 
-  z-index: 1000;
-  top: 120px;
+  width: 360px;
+  margin:0 auto;
 }

@@ -131,11 +131,13 @@ p.left{
 /*start floor3*/
 
 .footertop{
-	margin:20px 0 0 170px;
+	/*margin:20px 0 0 170px;*/
+	text-align: center;
 }
 
 .footerdown{
-	margin-left: 10px 0 0 30px;
+	/*margin-left: 10px 0 0 30px;*/
+	text-align: center;
 }
 
 .footerdown p{

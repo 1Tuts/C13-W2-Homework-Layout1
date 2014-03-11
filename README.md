@@ -2,7 +2,13 @@
 ### Layout 1 Homeworks of 13th Class
 
 #### Students Level
-Not any pull request recived !
+ 1. Mohammad Amin Alizade Golestani @MAgolestani [Demo](http://1tuts.github.io/C13-W2-Homework-Layout1/AminAg/) :ok_hand: :a:
+ 2. Alireza Akhlaghi @akhibing [Demo](http://1tuts.github.io/C13-W2-Homework-Layout1/akhibing/) :ok_hand: :a:
+ 3. Salman Sedighi @sedsalman [Demo](http://1tuts.github.io/C13-W2-Homework-Layout1/SedSalman/) :ok_hand: :ab:
+ 4. Hamed Nosrati @hamednosrati [Demo](http://1tuts.github.io/C13-W2-Homework-Layout1/hamednosrati/) :ok_hand: :b:
+ 5. Alireza Haghpanah @alirezahp :x: rejected
+ 6. Alireza Hassanzadeh Baradaran @alirezahb :x: rejected
+ 7. Javad Pourhosaini @pourhosaini :x: rejected
 
 **Note:** You arranged by code quality and time then do faster
 

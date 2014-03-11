@@ -1,0 +1,185 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+div,
+menu{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: #F4F4F4;
+}
+
+.container{
+  width: 960px;
+  margin: 0 auto;
+  /*background-image: url('images/backguid.jpg');*/
+  background-repeat: no-repeat;
+  min-height: 500px;
+}
+
+.row:before,
+.row:after{
+  content:" ";
+  display:table;
+}
+
+.row:after{
+  clear:both;
+}
+
+.box{/*each column in a row*/
+  box-sizing: border-box;/*vaghti arz midahim  barabar mishavad ba majmue padding margin va ....*/
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+.nav{
+  *zoom:1;
+  min-height: 135px;
+  /*
+  text-align: center;
+  vertical-align: middle;
+  */
+}
+
+.nav a{
+  text-decoration: none;
+  color: #808080;
+  text-transform: capitalize;
+  font-family: tahoma;
+  font-size: 18px;
+}
+
+.nav a:hover{
+  color: black;
+}
+
+.nav-left{
+  width: 42%;
+  float: left;
+  padding-top: 55px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.logo1{
+  width: 16%;
+  float: left;
+  padding: 0 8px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.logo1cnt{
+
+  width: 135px;
+  height: 135px;
+  background: url('images/logo.png') 0 0 no-repeat;
+}
+.logo1cnt:hover{
+  width: 135px;
+  height: 135px;
+  background: url('images/logo.png') 0 -135px no-repeat;
+}
+
+.nav-right{
+  width: 42%;
+  float: left;
+  padding-top: 55px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+li{
+  list-style: none;
+  width: 33.333%;/* yek sevom*/
+}
+
+.nav-left li{
+  float: left;
+}
+
+.nav-right li{
+  float: left;
+}
+
+.jpbody{
+
+}
+
+.body-left{
+  width: 50%;
+  float: left;
+  margin-right: 390px;
+  text-align: left;
+  vertical-align: top;
+  font-family: "tahoma";
+  font-size: 17px;
+  color: #646464;
+  line-height: 2.4;
+  padding: 40px 1px 10px 10px; 
+
+}
+
+.body-left img{
+  margin-bottom: 17px;
+}
+
+.orange{
+  display:block;
+  width: 310px;
+  font-weight: bold;
+  font-size: 30;
+  background-color: #ffd202;
+}
+
+.body-right{
+  width: 50%;
+  float: left;
+  margin-right: 390px;
+  background-image: url('images/bdyrght.png'); 
+}
+
+.footer-logos,
+.footer-links{
+  border-top-style: solid;
+  border-top-color: #e4e4e4;
+  border-top-width: 2px;
+  text-decoration: none;
+  color: #646464;
+  font-family: tahoma;
+  font-size: 12px;
+  text-align: center;
+  padding-top: 10px;
+}
+.footer-links a{
+  color: #83827d;
+  text-decoration: none;
+}
+
+.footer-links a:hover{
+  color: #646464;
+}
+.unli{
+  text-decoration: underline;
+}/*
+.container > *{
+  border: 1px dashed green;
+}
+
+.container > * > *{
+  border: 1px dashed red;
+}
+
+.container > * > * > *{
+  border: 1px dashed blue;
+}
+
+.container > * > * > * > *{
+  border: 1px dashed magenta;
+}
+*/

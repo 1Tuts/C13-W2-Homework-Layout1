@@ -1,0 +1,155 @@
+body {
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+.row{
+  *zoom:1;
+
+}
+.row:before,.row:after {
+  content:" ";
+  display:table;
+}
+.row:after {clear:both;}
+.box{box-sizing: border-box;}
+
+.container{
+  width: 950px;
+  margin: 0 auto;
+  text-align: center;/* aya doroste in kar?*/
+  /*background-image:url('images/backguid.jpg');*/
+  /* cherea tak ' chere 2 tayi nemizari "( mesle img???? */
+  background-repeat: no-repeat;
+  /*min-height: 800px;*/
+}
+/*.row1{height: 140px;}*/
+.row1 .boxl{
+  float: left;
+  width: 40%;
+  height: 140px;
+}
+menu.main{
+  padding: 10px;
+  margin: 0;
+  margin-top: 65px;
+  list-style-type: none;
+}
+/*menu.main:after{
+  display: table;
+  content:" ";
+  clear:both;
+}*/
+menu.main li {
+  margin-left: 20px;
+  float: left;
+}
+menu.main li:first-child{
+  margin-left: 0px;
+  float: left;
+  text-align:left;  
+}
+/*chera hom inghadr fasele dare az chap!???*/
+menu.main li a{
+  text-decoration: none;
+  /*display: block; */
+  font-family: sans-serif;
+  color: #808080;
+  font-size: 17px;
+  display: block;
+}
+.row1 .boxc{
+  float: left;
+  width: 20%;
+  height: 135px;
+  background-image:url('images/logo.png');/* cheara kar nemikone???*/
+  background-position: top;
+  background-repeat: no-repeat;
+  z-index: +1;*/
+}
+.row1 .boxr{
+  float: left;
+  width: 40%;
+}
+.row2{height: 520px;}
+.row2 .boxl {
+  position: relative;
+  float: left;
+  width: 50%;
+  padding: 120px 10px 0 ;
+}
+.row2 .boxl p{
+  text-align: left;
+  line-height: 1;
+  font-size: 18px;
+  color:#999;
+}
+
+.row2 .boxl img.i1 {
+  width: 235px;
+  position: absolute;
+  left: 14px;
+  top: 60px;
+}
+.row2 .boxl a.button{
+  font-family: "HouschkaRounded-Medium", sans-serif;
+  text-decoration: none;
+  border: none;
+  background: #ffd202;
+  padding: 10px 20px 6px;
+  font-size: 22px;
+  color: #414141;
+  display: block;
+  width: 350px;
+  margin: 0 auto;
+}
+a.button:hover{color: #000;}
+.row2 .boxr {
+  
+  float: left;
+  width: 50%;
+  height: 500px;
+  position: relative;
+  background-image:url('images/man.jpg');
+  background-repeat: no-repeat;
+}
+.row3{
+}
+.row3 .boxt {
+}
+.row3 .boxt img{
+}
+.row3 .boxc {height: 60px;}
+.row3 .boxd{}
+.row3 .boxt ul li { display: inline-block; margin: 0 1px; }
+.row3 .boxt a { display: block; height: 26px; width: 25px; }
+
+.fb a           { background: url(images/fb_icon.png) no-repeat; }
+.tw a           { background: url(images/twitter_icon.png) no-repeat; }
+.rss a          { background: url(images/rss_icon.png) no-repeat; }
+.contact a      { background: url(images/contact_icon.png) no-repeat; }
+.bodyandsoul a  { background: url(images/body_and_soul_btn.png) no-repeat; width: 90px;/*chera bozorg nemikone!!!*/ }
+.lottery a      { background: url(images/lottery_btn.png) no-repeat; width: 200px;/*chera bozorg nemikone!!!*/ }
+
+/****************************************first of page layout design****************************************/
+ /* .container{
+    outline: 1px dotted gray;
+  }
+
+  .container > *{
+    outline: 1px dotted green;
+  }
+
+  .container > * > *{
+    outline: 1px dotted red;
+  }
+
+  .container > * > * > *{
+    outline: 1px dotted blue;
+  }
+
+  .container > * > * > * > *{
+    outline: 1px dotted magenta;
+  }
+*/
+/****************************************end of page layout design****************************************/

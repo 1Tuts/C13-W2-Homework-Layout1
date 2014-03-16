@@ -186,10 +186,12 @@ a.button:hover{
 div.boxd a{
   display: inline ;
   color: black;
+  color:inherit;
 }
 div.boxd {
   font-family: "Times New Roman";
   font-size: 14px;
+  color:#888;
 }
 /****************************************first of page layout design****************************************/
 /*.container{

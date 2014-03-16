@@ -1,0 +1,217 @@
+body {
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.row{
+  *zoom:1;
+
+}
+
+.row:before,.row:after {
+  content:" ";
+  display:table;
+}
+
+.row:after {
+  clear:both;
+}
+
+.box{
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.container{
+  width: 950px;
+  margin: 0 auto;
+ 
+  background-repeat: no-repeat;
+  /*min-height: 800px;*/
+}
+
+/********************************************************************/
+
+.row1 .boxl{
+  float: left;
+  width: 40%;
+  height: 140px;
+}
+
+menu.main{
+  padding: 50px 10px;
+  margin: 0;
+  list-style-type: none;
+}
+
+menu.main li {
+  margin-left: 20px;
+  float: left;
+}
+
+menu.main li:first-child{
+  margin-left: 0;
+  float: left;
+  text-align:left;  
+}
+
+menu.main li a{
+  text-decoration: none;
+  /*display: block; */
+  font-family: sans-serif;
+  color: #808080;
+  font-size: 17px;
+  display: block;
+  padding: 5px 10px;
+}
+
+.row1 .boxc{
+  float: left;
+  width: 20%;
+  height: 138px;
+  background-image:url('images/logo.png');/* cheara kar nemikone???*/
+  background-position: 50% -2%;
+  background-repeat: no-repeat;
+}
+
+.row1 .boxr{
+  float: left;
+  width: 40%;
+}
+
+.row2{ 
+  /*min-height: 520px;*/
+}
+
+.row2 .boxl {
+  float: left;
+  width: 50%;
+  padding: 80px 10px 0 ;
+}
+
+
+.row2 .boxl p{
+  text-align: left;
+  line-height: 1;
+  font-size: 20px;
+  color:#999;
+  font-family: serif;
+}
+
+  
+.row2 .boxl a.button{
+  font-family: "HouschkaRounded-Medium", sans-serif;
+  text-decoration: none;
+  border: none;
+  background: #ffd202;
+  padding: 10px 20px 6px;
+  font-size: 22px;
+  color: #414141;
+  display: block;
+  width: 350px;
+  margin: 0 auto;
+  float: left;
+}
+.row2 .boxl span{
+display: block;
+float: left;
+}
+.row2 .boxl div.img{
+  background-image: url(images/video_play_icon.png);
+  width: 20px;
+  height: 15px;
+  float: left;
+  margin: 5px 10px 0 auto;
+
+}
+a.button:hover{
+  color: #000;
+}
+.row2 .boxr {
+  float: left;
+  width: 50%;
+  height: 500px;
+  background-image:url('images/man.jpg');
+  background-repeat: no-repeat;
+  background-position: 70px 20px;
+}
+.row3{
+  border-top: 1px solid #ccc;
+  text-align: center;
+}
+.row3 .boxt{
+  padding: 10px;
+}
+.row3 .boxc ul li {
+ display: inline-block;
+ margin: 0 1px; 
+}
+
+.row3 .boxc a {
+  display: block;
+  height: 25px;
+  min-width: 30px;
+}
+
+.row3 .boxc li.fb a {
+  background-image: url(images/fb_icon.png);
+  background-repeat: no-repeat;
+}
+.row3 .boxc li.tw a {
+  background-image: url(images/twitter_icon.png);
+  background-repeat: no-repeat;
+}
+.row3 .boxc li.rss a {
+  background-image: url(images/rss_icon.png);
+  background-repeat: no-repeat;
+}
+.row3 .boxc li.contact a {
+  background-image: url(images/contact_icon.png);
+  background-repeat: no-repeat;
+}
+.row3 .boxc li.bodyandsoul a  {
+  background-image: url(images/body_and_soul_btn.png);
+  background-repeat: no-repeat;
+  width: 90px;
+  height: 20px;
+}
+.row3 .boxc li.lottery a {
+  background: url(images/lottery_btn.png);
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 30px;
+}
+div.boxd a{
+  display: inline ;
+  color: black;
+  color:inherit;
+}
+div.boxd {
+  font-family: "Times New Roman";
+  font-size: 14px;
+  color:#888;
+}
+/****************************************first of page layout design****************************************/
+/*.container{
+  outline: 1px dotted gray;
+}
+
+.container > *{
+  outline: 1px dotted green;
+}
+
+.container > * > *{
+  outline: 1px dotted red;
+}
+
+.container > * > * > *{
+  outline: 1px dotted blue;
+}
+
+.container > * > * > * > *{
+  outline: 1px dotted magenta;
+}
+*/
+/****************************************end of page layout design****************************************/

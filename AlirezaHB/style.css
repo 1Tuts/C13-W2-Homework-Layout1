@@ -119,11 +119,10 @@ display: block;
 float: left;
 }
 .row2 .boxl div.img{
-  /*display: inline;*/
   background-image: url(images/video_play_icon.png);
   width: 20px;
   height: 15px;
-  /*float: left;*/
+  float: left;
   margin: 5px 10px 0 auto;
 
 }
@@ -145,8 +144,9 @@ a.button:hover{
 .row3 .boxt{
   padding: 10px;
 }
-.row3 .boxt ul li {
- display: inline-block; margin: 0 1px; 
+.row3 .boxc ul li {
+ display: inline-block;
+ margin: 0 1px; 
 }
 
 .row3 .boxc a {
@@ -192,7 +192,7 @@ div.boxd {
   font-size: 14px;
 }
 /****************************************first of page layout design****************************************/
-.container{
+/*.container{
   outline: 1px dotted gray;
 }
 
@@ -211,5 +211,5 @@ div.boxd {
 .container > * > * > * > *{
   outline: 1px dotted magenta;
 }
-
+*/
 /****************************************end of page layout design****************************************/
